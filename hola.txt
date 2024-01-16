@@ -1,1 +1,21 @@
 hola que tal?
+
+git init
+git config user.name "poderoscuro"
+git config user.email "mrodriguezc51@upao.edu.pe"
+git remote add origin "https://github.com/poderoscuro/pruebagit"
+git add hola.txt
+git status
+git commit -m "estoysegura de este commit 1"
+git push -u origin master
+
+
+***Con el token:
+git init
+git config user.name "poderoscuro"
+git config user.email "mrodriguezc51@upao.edu.pe"
+git config user.password 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
+git remote add origin https://github.com/...
+git add .
+git commit -m probandoPat
+git push -u origin master
